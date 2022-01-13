@@ -31,7 +31,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Antonio Rosales
+            @lethamburn
           </Text>
         </LogoBox>
       </a>
