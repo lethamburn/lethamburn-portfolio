@@ -1,0 +1,28 @@
+{
+  "name": "lethamburn-portfolio",
+  "version": "1.0.0",
+  "description": "Antonio Rosales's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Antonio Rosales Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^1.7.4",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^5.6.0",
+    "next": "^12.0.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-next": "^12.0.8",
+    "prettier": "^2.5.1"
+  }
+}
