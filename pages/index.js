@@ -93,10 +93,6 @@ const Page = () => {
           Completed Image Technician Grade in Jesús Marín Polytechnic School{' '}
         </BioSection>
         <BioSection>
-          <BioYear>2011</BioYear>
-          Completed Image Technician Grade in Jesús Marín Polytechnic School{' '}
-        </BioSection>
-        <BioSection>
           <BioYear>2019</BioYear>
           Started Multi-Platform Development Degree in Cesur vocational training
           School
