@@ -4,7 +4,7 @@ import { Box, Container } from '@chakra-ui/react'
 
 const Main = ({ children, router }) => {
   return (
-    <Box as="main" pb={8}  backgroundImage="url('/images/background.png')" backgroundRepeat="repeat-y"  backgroundSize="cover">
+    <Box as="main" pb={8}  backgroundImage="url('/images/background.png')" backgroundRepeat="repeat">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Antonio Rosales - Homepage</title>
