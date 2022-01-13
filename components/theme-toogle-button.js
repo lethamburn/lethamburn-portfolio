@@ -18,8 +18,8 @@ const ThemeToggleButton = () => {
           aria-label="Toggle theme"
           colorScheme={useColorModeValue('white', 'black')}
           icon={useColorModeValue(
-            <Image src="/images/footprint-dark.png" height={23} width={23} />,
-            <Image src="/images/footprint.png" height={23} width={23} />
+            <Image src="/images/footprint-dark.png" height={23} width={23} alt="change theme button" />,
+            <Image src="/images/footprint.png" height={23} width={23} alt="change theme button"/>
           )}
           onClick={toggleColorMode}
         ></IconButton>
