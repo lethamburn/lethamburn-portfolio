@@ -5,8 +5,7 @@ import {
   Button,
   Heading,
   Image,
-  Link,
-  useColorModeValue
+  Link
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Lottie from 'react-lottie'
