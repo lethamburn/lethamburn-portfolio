@@ -21,7 +21,7 @@ const Projects = () => {
                   A markdown note-taking app
               </ProjectGridItem>
           </Section>
-          <Section>
+          <Section delay={0.1}>
               <ProjectGridItem id="WaveCode" title="WaveCode" thumbnail={waveCode}>
                   A markdown note-taking app
               </ProjectGridItem>
@@ -31,7 +31,7 @@ const Projects = () => {
                   A markdown note-taking app
               </ProjectGridItem>
           </Section>
-          <Section>
+          <Section delay={0.2}>
               <ProjectGridItem id="WaveCode" title="WaveCode" thumbnail={waveCode}>
                   A markdown note-taking app
               </ProjectGridItem>
@@ -41,7 +41,7 @@ const Projects = () => {
                   A markdown note-taking app
               </ProjectGridItem>
           </Section>
-          <Section>
+          <Section delay={0.3}>
               <ProjectGridItem id="WaveCode" title="WaveCode" thumbnail={waveCode}>
                   A markdown note-taking app
               </ProjectGridItem>
@@ -51,6 +51,31 @@ const Projects = () => {
                   A markdown note-taking app
               </ProjectGridItem>
           </Section>
+      </SimpleGrid>
+      <Section delay={0.4}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Recent Code
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.5}>
+        <ProjectGridItem id="WaveCode" title="WaveCode" thumbnail={waveCode}>
+                  A markdown note-taking app
+              </ProjectGridItem>
+        </Section>
+        <Section delay={0.5}>
+        <ProjectGridItem id="WaveCode" title="WaveCode" thumbnail={waveCode}>
+                  A markdown note-taking app
+              </ProjectGridItem>
+        </Section>
+        <Section delay={0.6}>
+        <ProjectGridItem id="WaveCode" title="WaveCode" thumbnail={waveCode}>
+                  A markdown note-taking app
+              </ProjectGridItem>
+        </Section>
       </SimpleGrid>
     </Container>
   )
