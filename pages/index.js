@@ -23,7 +23,7 @@ const Page = () => {
         mt={6}
         align="center"
       >
-        Hello, I'm a Full-Stack Developer based in Madrid!
+        Hello, I&apos;m a Full-Stack Developer based in Madrid!
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -62,7 +62,7 @@ const Page = () => {
             <Link>GitHub</Link>
           </NextLink>
           . Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book. It has survived not only
           five centuries, but also the leap into electronic typesetting,
