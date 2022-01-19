@@ -3,6 +3,8 @@ import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 import Layout from '../components/article'
 import waveCode from '../public/images/contents/wavecode.png'
+import watchflix from "../public/images/contents/watchflix.png"
+
 
 const Projects = () => {
   return (
@@ -14,16 +16,16 @@ const Projects = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <ProjectGridItem id="inkdrop" title="WaveCode" thumbnail={waveCode}>
-              A markdown note-taking app
+              Our final project made with React + NodeJs of Upgrade Hub. A lo-fi playlist app with an internal comment box and authentication.
             </ProjectGridItem>
           </Section>
           <Section>
             <ProjectGridItem
-              id="WaveCode"
-              title="WaveCode"
-              thumbnail={waveCode}
+              id="Watchflix"
+              title="Watchflix"
+              thumbnail={watchflix}
             >
-              A markdown note-taking app
+             A PHP watch-list with authentication where each user can add items and have favourite elements.
             </ProjectGridItem>
           </Section>
           <Section delay={0.1}>
