@@ -15,7 +15,7 @@ const NotFound = () => {
       <Heading as="h1" mt={4}>Not found</Heading>
       <Text>These aren`&apos;`t the pages you`&apos;`re looking for...</Text>
       <Divider my={6} />
-      <Image src="/images/contents/obi.jpg" width="600px" height="250" />
+      <Image src="/images/contents/obi.jpg" width="600px" height="250" alt="Obi-Wan" />
       <Divider my={6} />
 
       <Box my={6} align="center">
