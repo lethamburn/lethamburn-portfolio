@@ -73,7 +73,7 @@ const Navbar = props => {
           <LinkItem href="/photography" path={path}>
             Photography
           </LinkItem>
-          <LinkItem href="/3Dprint" path={path}>
+          <LinkItem href="/3dprint" path={path}>
             3D printing
           </LinkItem>
         </Stack>
