@@ -13,7 +13,7 @@ const NotFound = () => {
   return (
     <Container>
       <Heading as="h1" mt={4}>Not found</Heading>
-      <Text>These aren't the pages you're looking for...</Text>
+      <Text>These aren`&apos;`t the pages you`&apos;`re looking for...</Text>
       <Divider my={6} />
       <Image src="/images/contents/obi.jpg" width="600px" height="250" />
       <Divider my={6} />
