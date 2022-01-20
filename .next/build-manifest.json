@@ -15,10 +15,15 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/404": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/404.js"
+      "static/chunks/pages/index.js"
+    ],
+    "/3dprint": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/3dprint.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -29,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/photography": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/photography.js"
     ],
     "/projects": [
       "static/chunks/webpack.js",
