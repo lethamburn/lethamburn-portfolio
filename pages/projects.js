@@ -43,13 +43,13 @@ const Projects = () => {
           </Section>
           <Section delay={0.1}>
             <ProjectGridItem
-              id="Star Wars Json Server"
-              title="Star Wars Json Server"
+              id="Star Wars NodeJS Server"
+              title="Star Wars NodeJS Server"
               thumbnail={starWars}
-              link="https://github.com/lethamburn/angular_star-wars_jsonserver"
+              link="https://nodejs-starwars-server.vercel.app/"
             >
               A custom API about Star Wars movies, locations and characters with
-              a JSON Server and an Angular client.
+              a NodeJS server.
             </ProjectGridItem>
           </Section>
           <Section>

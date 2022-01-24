@@ -51,3 +51,15 @@ export const GridItemStyle = () => (
     `}
   />
 )
+
+export const PhotoItem = ({ title, thumbnail }) => (
+  <Box w="100%" textAlign="center">
+    <Image
+      src={thumbnail}
+      alt={title}
+      className="grid-item-thumbnail"
+      placeholder="blur"
+      loading="lazy"
+    />
+  </Box>
+)
