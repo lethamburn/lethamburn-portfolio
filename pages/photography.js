@@ -34,12 +34,6 @@ const Photography = () => {
            <PhotoItem id="First" title="First" thumbnail={second}/>
           </Section>
           <Section>
-           <PhotoItem id="First" title="First" thumbnail={third}/>
-          </Section>
-          <Section>
-           <PhotoItem id="First" title="First" thumbnail={four}/>
-          </Section>
-          <Section>
            <PhotoItem id="First" title="First" thumbnail={five}/>
           </Section>
           <Section>
@@ -47,6 +41,12 @@ const Photography = () => {
           </Section>
           <Section>
            <PhotoItem id="First" title="First" thumbnail={seven}/>
+          </Section>
+          <Section>
+           <PhotoItem id="First" title="First" thumbnail={third}/>
+          </Section>
+          <Section>
+           <PhotoItem id="First" title="First" thumbnail={four}/>
           </Section>
         </SimpleGrid>
       </Container>

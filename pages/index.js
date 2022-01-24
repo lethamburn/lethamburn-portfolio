@@ -5,8 +5,13 @@ import {
   Button,
   Heading,
   Image,
-  Link
+  Link,
+  List,
+  ListItem,
+  Icon,
+  SimpleGrid
 } from '@chakra-ui/react'
+import { ProjectGridItem } from '../components/grid-item'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Lottie from 'react-lottie'
 import animationData from '../public/lotties/falcon.json'
@@ -15,6 +20,10 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { LoveSection, LoveEmoji } from '../components/love'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import gitHub from '../public/images/github.png'
+import miniCode from '../public/images/minicode.png'
+
 const Page = () => {
   const defaultOptions = {
     loop: true,
@@ -33,7 +42,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Antonio Rosales
             </Heading>
-            <p>FSGFADGASD (Bla/Bla/Bla)</p>
+            <p>Full Stack Developer</p>
           </Box>
           <Box
             flexShrink={0}
@@ -59,20 +68,12 @@ const Page = () => {
             About me
           </Heading>
           <Paragraph>
-            I love science fiction, comics, video games, death metal and 3D
-            printing. This is my{' '}
+            I love science fiction, photography, comics, video games, death
+            metal and 3D printing. This is my{' '}
             <NextLink href="www.github.com/lethamburn">
               <Link>GitHub</Link>
             </NextLink>
-            . Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book. It has survived
-            not only five centuries, but also the leap into electronic
-            typesetting, remaining essentially unchanged. It was popularised in
-            the 1960s with the release of Letraset sheets containing Lorem Ipsum
-            passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
+            .
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/projects">
@@ -144,6 +145,64 @@ const Page = () => {
             Science Fiction
           </LoveSection>
         </Section>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/lethamburn" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="gray"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @lethamburn
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://twitter.com/lethamburn" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="gray"
+                  leftIcon={<Icon as={IoLogoTwitter} />}
+                >
+                  @lethamburn
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://instagram.com/lethamburn" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="gray"
+                  leftIcon={<Icon as={IoLogoInstagram} />}
+                >
+                  @lethamburn
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
+
+          <SimpleGrid columns={[1, 2]} gap={6} mt={8}>
+            <ProjectGridItem
+              id="GitHub"
+              title="GitHub"
+              thumbnail={gitHub}
+              link="https://github.com/lethamburn"
+            ></ProjectGridItem>
+            <ProjectGridItem
+              id="Mini Code Lab"
+              title="Mini Code Lab"
+              thumbnail={miniCode}
+              link="https://minicodelab.dev"
+            ></ProjectGridItem>
+          </SimpleGrid>
+        </Section>
+      {/*   <Box flexGrow={1} mt={3} mb={3} align="center">
+            <footer>Props to craftzdog and his YouTube channel</footer>
+          </Box> */}
       </Container>
     </Layout>
   )
