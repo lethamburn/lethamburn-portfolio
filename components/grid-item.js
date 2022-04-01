@@ -31,7 +31,7 @@ export const ProjectGridItem = ({ children, id, title, thumbnail, link }) => (
           className="grid-item-thumbnail"
           placeholder="blur"
         />
-        <LinkOverlay href={`/projects/${id}`} target="_blank">
+        <LinkOverlay href={link} target="_blank">
           <Text mt={2} fontSize={20}>
             {title}
           </Text>
