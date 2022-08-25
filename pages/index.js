@@ -113,7 +113,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2021 to present</BioYear>
-            Works as a freelance developer
+            Work as a MERN Teacher at Neoland as freelance
           </BioSection>
         </Section>
         <Section delay={0.3}>
