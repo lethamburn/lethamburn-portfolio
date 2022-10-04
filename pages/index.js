@@ -98,6 +98,10 @@ const Page = () => {
             <BioYear>2011</BioYear>
             Completed Image Technician Grade in Jesús Marín Polytechnic School{' '}
           </BioSection>
+ <BioSection>
+            <BioYear>2013</BioYear>
+            Started working in a property management company{' '}
+          </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
             Started Multi-Platform Development Degree in Cesur vocational
@@ -112,7 +116,11 @@ const Page = () => {
             Completed Full-Stack Development Bootcamp in Upgrade Hub
           </BioSection>
           <BioSection>
-            <BioYear>2021 to present</BioYear>
+            <BioYear>2021 to 2022</BioYear>
+            Work as a Full-Stack Teacher at Upgrade Hub as freelance
+          </BioSection>
+<BioSection>
+            <BioYear>2022 to present</BioYear>
             Work as a MERN Teacher at Neoland as freelance
           </BioSection>
         </Section>
