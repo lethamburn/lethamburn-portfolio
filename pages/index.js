@@ -108,20 +108,20 @@ const Page = () => {
             training School
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear>
+            <BioYear>2020</BioYear>
             Moved to Madrid
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear>
+            <BioYear>2020</BioYear>
             Completed Full-Stack Development Bootcamp in Upgrade Hub
           </BioSection>
           <BioSection>
             <BioYear>2021 to 2022</BioYear>
-            Work as a Full-Stack Teacher at Upgrade Hub as freelance
+            Work as a Code Teacher at Upgrade Hub as freelance
           </BioSection>
 <BioSection>
             <BioYear>2022 to present</BioYear>
-            Work as a MERN Teacher at Neoland as freelance
+            Work as a Code Teacher at Neoland as freelance
           </BioSection>
         </Section>
         <Section delay={0.3}>
