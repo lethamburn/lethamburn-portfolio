@@ -20,8 +20,13 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { LoveSection, LoveEmoji } from '../components/love'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import gitHub from '../public/images/github.png'
+import {
+  IoLogoLinkedin,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoCodepen
+} from 'react-icons/io5'
+import starwars from '../public/images/starwars.png'
 import miniCode from '../public/images/minicode.png'
 
 const Page = () => {
@@ -42,7 +47,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Antonio Rosales
             </Heading>
-            <p>MERN Developer</p>
+            <p>Software Engineer & Code Teacher</p>
           </Box>
           <Box
             flexShrink={0}
@@ -70,9 +75,9 @@ const Page = () => {
           <Paragraph>
             I love science fiction, photography, comics, video games, death
             metal and 3D printing. This is my{' '}
-            <NextLink href="www.github.com/lethamburn">
-              <Link>GitHub</Link>
-            </NextLink>
+            <Link href="http://www.github.com/lethamburn" target="_blank">
+              GitHub
+            </Link>
             .
           </Paragraph>
           <Box align="center" my={4}>
@@ -98,14 +103,13 @@ const Page = () => {
             <BioYear>2011</BioYear>
             Completed Image Technician Grade in Jesús Marín Polytechnic School{' '}
           </BioSection>
- <BioSection>
+          <BioSection>
             <BioYear>2013</BioYear>
             Started working in a property management company{' '}
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Started Multi-Platform Development Degree in Cesur vocational
-            training School
+            Studied Multi-Platform Development Degree in Cesur training school
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
@@ -117,11 +121,15 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2021 to 2022</BioYear>
-            Work as a Code Teacher at Upgrade Hub as freelance
+            Work as a Code Teacher at <strong>Upgrade Hub</strong> as freelance
           </BioSection>
-<BioSection>
+          <BioSection>
             <BioYear>2022 to present</BioYear>
-            Work as a Code Teacher at Neoland as freelance
+            Work as a Head Teacher at <strong>Neoland</strong>
+          </BioSection>
+          <BioSection>
+            <BioYear>2023 to present</BioYear>
+            Work as a Head Teacher at <strong>RockTheCode</strong>
           </BioSection>
         </Section>
         <Section delay={0.3}>
@@ -159,22 +167,22 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/lethamburn" target="_blank">
+              <Link href="https://codepen.io/lethamburn" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="gray"
-                  leftIcon={<Icon as={IoLogoGithub} />}
+                  leftIcon={<Icon as={IoLogoCodepen} />}
                 >
                   @lethamburn
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://twitter.com/lethamburn" target="_blank">
+              <Link href="https://github.com/lethamburn" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="gray"
-                  leftIcon={<Icon as={IoLogoTwitter} />}
+                  leftIcon={<Icon as={IoLogoGithub} />}
                 >
                   @lethamburn
                 </Button>
@@ -191,14 +199,28 @@ const Page = () => {
                 </Button>
               </Link>
             </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.linkedin.com/in/antonio-rosales-martinez-925397213/"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="gray"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  @AntonioRosales
+                </Button>
+              </Link>
+            </ListItem>
           </List>
 
           <SimpleGrid columns={[1, 2]} gap={6} mt={8}>
             <ProjectGridItem
-              id="GitHub"
-              title="GitHub"
-              thumbnail={gitHub}
-              link="https://github.com/lethamburn"
+              id="Star Wars Databank"
+              title="Star Wars Databank"
+              thumbnail={starwars}
+              link="https://starwars-databank.vercel.app/"
             ></ProjectGridItem>
             <ProjectGridItem
               id="Mini Code Lab"
@@ -208,7 +230,7 @@ const Page = () => {
             ></ProjectGridItem>
           </SimpleGrid>
         </Section>
-      {/*   <Box flexGrow={1} mt={3} mb={3} align="center">
+        {/*   <Box flexGrow={1} mt={3} mb={3} align="center">
             <footer>Props to craftzdog and his YouTube channel</footer>
           </Box> */}
       </Container>
