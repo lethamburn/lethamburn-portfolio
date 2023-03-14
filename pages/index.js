@@ -24,7 +24,8 @@ import {
   IoLogoLinkedin,
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoCodepen
+  IoLogoCodepen,
+  IoLogoMedium
 } from 'react-icons/io5'
 import starwars from '../public/images/starwars.png'
 import miniCode from '../public/images/minicode.png'
@@ -210,6 +211,20 @@ const Page = () => {
                   leftIcon={<Icon as={IoLogoLinkedin} />}
                 >
                   @AntonioRosales
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://medium.com/@antoniorosalesmartinez90"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="gray"
+                  leftIcon={<Icon as={IoLogoMedium} />}
+                >
+                  @antoniorosalesmartinez90
                 </Button>
               </Link>
             </ListItem>
