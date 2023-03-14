@@ -121,6 +121,10 @@ const Page = () => {
             Completed Full-Stack Development Bootcamp in Upgrade Hub
           </BioSection>
           <BioSection>
+            <BioYear>2021 to present</BioYear>
+            Work as a freelancer Developer
+          </BioSection>
+          <BioSection>
             <BioYear>2021 to 2022</BioYear>
             Work as a Code Teacher at <strong>Upgrade Hub</strong> as freelance
           </BioSection>
