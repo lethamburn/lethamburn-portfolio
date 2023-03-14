@@ -174,7 +174,7 @@ const Page = () => {
                   colorScheme="gray"
                   leftIcon={<Icon as={IoLogoCodepen} />}
                 >
-                  @lethamburn
+                  Codepen
                 </Button>
               </Link>
             </ListItem>
@@ -185,18 +185,7 @@ const Page = () => {
                   colorScheme="gray"
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
-                  @lethamburn
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://instagram.com/lethamburn" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme="gray"
-                  leftIcon={<Icon as={IoLogoInstagram} />}
-                >
-                  @lethamburn
+                  GitHub
                 </Button>
               </Link>
             </ListItem>
@@ -210,7 +199,7 @@ const Page = () => {
                   colorScheme="gray"
                   leftIcon={<Icon as={IoLogoLinkedin} />}
                 >
-                  @AntonioRosales
+                  LinkedIn
                 </Button>
               </Link>
             </ListItem>
@@ -224,7 +213,18 @@ const Page = () => {
                   colorScheme="gray"
                   leftIcon={<Icon as={IoLogoMedium} />}
                 >
-                  @antoniorosalesmartinez90
+                  Medium
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://instagram.com/lethamburn" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="gray"
+                  leftIcon={<Icon as={IoLogoInstagram} />}
+                >
+                  Instagram
                 </Button>
               </Link>
             </ListItem>
