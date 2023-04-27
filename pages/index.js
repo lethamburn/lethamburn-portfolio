@@ -129,7 +129,7 @@ const Page = () => {
             Work as a Code Teacher at <strong>Upgrade Hub</strong> as freelance
           </BioSection>
           <BioSection>
-            <BioYear>2022 to present</BioYear>
+            <BioYear>2022 to 2023</BioYear>
             Work as a Head Teacher at <strong>Neoland</strong>
           </BioSection>
           <BioSection>
