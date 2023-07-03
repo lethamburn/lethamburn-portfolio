@@ -166,7 +166,7 @@ const Page = () => {
             Science Fiction
           </LoveSection>
                 <LoveSection>
-            <LoveEmoji>🎞️</LoveEmoji>
+            <LoveEmoji>🐘</LoveEmoji>
             <Link href="https://frikiverse.zone/@lethamburn">Mastodon</Link>
           </LoveSection>
         </Section>
