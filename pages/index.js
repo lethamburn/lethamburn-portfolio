@@ -165,6 +165,10 @@ const Page = () => {
             <LoveEmoji>👽</LoveEmoji>
             Science Fiction
           </LoveSection>
+                <LoveSection>
+            <LoveEmoji>🎞️</LoveEmoji>
+            <Link href="https://frikiverse.zone/@lethamburn">Mastodon</Link>
+          </LoveSection>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
