@@ -167,7 +167,7 @@ const Page = () => {
           </LoveSection>
                 <LoveSection>
             <LoveEmoji>🐘</LoveEmoji>
-            <Link href="https://frikiverse.zone/@lethamburn">Mastodon</Link>
+            <Link href="https://frikiverse.zone/@lethamburn" rel="me">Mastodon</Link>
           </LoveSection>
         </Section>
         <Section delay={0.3}>
