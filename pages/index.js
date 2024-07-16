@@ -199,7 +199,7 @@ const Page = () => {
             </ListItem>
             <ListItem>
               <Link
-                href="https://www.linkedin.com/in/antonio-rosales-martinez-925397213/"
+                href="https://www.linkedin.com/in/antoniorosalesmartinez/"
                 target="_blank"
               >
                 <Button
