@@ -143,7 +143,7 @@ const Page = () => {
           </Heading>
           <LoveSection>
             <LoveEmoji>⚙️</LoveEmoji>
-            <Link href="https://ko-fi.com/lethamburn">3D Printing</Link>
+            3D Printing
           </LoveSection>
           <LoveSection>
             <LoveEmoji>💭</LoveEmoji>
@@ -151,23 +151,19 @@ const Page = () => {
           </LoveSection>
           <LoveSection>
             <LoveEmoji>🎮</LoveEmoji>
-            <Link href="http://www.stayawake.es/">Videogames</Link>
-          </LoveSection>
-          <LoveSection>
-            <LoveEmoji>🎸</LoveEmoji>
-            Death Metal
+            Videogames
           </LoveSection>
           <LoveSection>
             <LoveEmoji>🎞️</LoveEmoji>
-            <Link href="https://letterboxd.com/lethamburn/">Movies</Link>
+            Movies
           </LoveSection>
           <LoveSection>
             <LoveEmoji>👽</LoveEmoji>
             Science Fiction
           </LoveSection>
                 <LoveSection>
-            <LoveEmoji>🐘</LoveEmoji>
-            <Link href="https://frikiverse.zone/@lethamburn" rel="me">Mastodon</Link>
+            <LoveEmoji>🎃</LoveEmoji>
+            <Link href="https://instagram.com/lethamburn" rel="me">Death Metal</Link>
           </LoveSection>
         </Section>
         <Section delay={0.3}>
