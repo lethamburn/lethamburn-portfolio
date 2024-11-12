@@ -133,8 +133,12 @@ const Page = () => {
             Work as a Head Teacher at <strong>Neoland</strong>
           </BioSection>
           <BioSection>
-            <BioYear>2023 to present</BioYear>
+            <BioYear>2023 to 2024</BioYear>
             Work as a Head Teacher at <strong>RockTheCode</strong>
+          </BioSection>
+               <BioSection>
+            <BioYear>2024 to present</BioYear>
+            Work as a Head Teacher at <strong>Prometeo</strong>
           </BioSection>
         </Section>
         <Section delay={0.3}>
